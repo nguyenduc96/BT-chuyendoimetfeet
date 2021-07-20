@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi giữa meter và feet</title>
+</head>
+<body>
+<form>
+    <h1>Chuyển đổi giữa meter và feet</h1>
+    <hr>
+    <input type="number" id="input" placeholder="Nhập vào độ dài"
+           oninput="chanGe()" onchange="chanGe()">
+    <select name="change" id="change">
+        <option value="meter">To meter</option>
+        <option value="feet">To feet</option>
+    </select>
+    <p id="output"></p>
+</form>
+<script src="metfeet.js"></script>
+</body>
+</html>
